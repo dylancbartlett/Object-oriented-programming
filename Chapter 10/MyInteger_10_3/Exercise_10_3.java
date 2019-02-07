@@ -10,18 +10,19 @@ class Exercise_10_3 {
 		System.out.println("Testing isEven functions:");
 		System.out.println(MyInteger.isEven(6));
 		System.out.println(MyInteger.isEven(new MyInteger(12)));
-		System.out.println(MyInteger.isEven(5));
+		System.out.println(abc.isEven());
 		System.out.println(" ");
 		
 		System.out.println("Testing isOdd functions:");
 		System.out.println(MyInteger.isOdd(12));
-		System.out.println(MyInteger.isOdd(15));
-		System.out.println(MyInteger.isOdd(9));
+		System.out.println(MyInteger.isOdd(new MyInteger(15)));
+		System.out.println(abc.isOdd());
 		System.out.println(" ");
 		
 		System.out.println("Testing isPrime functions:");
 		System.out.println(MyInteger.isPrime(11));
-		System.out.println(MyInteger.isPrime(34));
+		System.out.println(MyInteger.isPrime(new MyInteger(22)));
+		System.out.println(abc.isPrime());
 		System.out.println(" ");
 		
 		System.out.println("Testing equals functions:");
